@@ -6,3 +6,6 @@ Java 기반 Web Homepage API Server
 - Mysql5.7
 
 ### 기능정의
+- 회원가입 
+- 로그인 (사용자/관리자)
+- 공지사항
