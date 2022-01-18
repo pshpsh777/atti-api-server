@@ -1,4 +1,4 @@
-package com.attifc.apiserver.model;
+package com.attifc.apiserver.domain;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -15,7 +15,7 @@ public class User {
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Id
     @Column
-    private int id;
+    private long id;
     @Column
     private String name;
     @Column
